@@ -427,6 +427,15 @@ section#popular {
     height: 31.25rem;
 }
 
+div#popular-txt {
+    margin-top: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
 div#popular-txt h2 {
     padding-top: 1em;
     font-family: 'Poppins';
@@ -446,6 +455,7 @@ div#popular-txt p {
     letter-spacing: 0.10000000149011612px;
     text-align: center;
     padding-bottom: 1em;
+    color: #5E6E89;
 }
 
 div#popular-container {
