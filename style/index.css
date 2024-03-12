@@ -179,8 +179,11 @@ div#banner-container button:hover {
   transition: 0.3s;
 }
 
-div#products-title {
+section#section-products {
   padding: 2em 0;
+}
+
+div#products-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -206,16 +209,23 @@ div#products-title p {
   letter-spacing: 0.10000000149011612px;
   text-align: center;
   color: #5e6e89;
-  margin-bottom: 6.25rem;
+  padding-bottom: 1em;
 }
 
 div#products-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 products em cada linha */
-  grid-gap: 0.625rem;
-  max-width: 1100px;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 90%;
+  gap: 2em 0;
   margin: 0 auto;
-  margin-bottom: 6.25rem;
+  /*display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 products em cada linha */
+  /*flex-wrap: wrap;
+  grid-gap: 1em;
+  width: 80%;
+  margin: 0 auto;*/
 }
 
 div.product {
@@ -268,7 +278,7 @@ section#benefits {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
 }
 
 div#benefits-txt h3 {
@@ -293,7 +303,7 @@ div#benefits-txt p {
 }
 
 div#benefits-txt ul {
-  margin: 40px 0px 60px 0px;
+  padding: 1em 0;
   display: flex;
   flex-direction: column;
   gap: 0.625rem;
@@ -343,7 +353,8 @@ div#benefits-txt button:hover {
 }
 
 section#popular {
-  height: 100vh;
+  height: 80vh;
+  padding: 2em 0;
 }
 
 div#popular-txt {
@@ -379,6 +390,7 @@ div#popular-txt p {
 div#popular-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   gap: 1.25rem;
 }
