@@ -29,11 +29,11 @@
   }
 
   div#banner-container {
-    width: 50%;
+    width: 80%;
   }
 
   div#banner-container p {
-    width: 50%;
+    width: 70%;
   }
 
   /* PRODUCTS */
@@ -45,6 +45,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1em;
   }
 
   div.product {
@@ -52,10 +53,31 @@
     height: 80%;
   }
 
+  /* BENEFITS */
+
+  section#benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  div#benefits-txt {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #photo-discovery {
+    width: 20em;
+  }
+
   /* POPULAR */
 
   section#popular {
-   width: 100%;
+    width: 100%;
   }
 
   div#popular-txt p {
@@ -68,7 +90,7 @@
     align-items: center;
   }
 
-  /* FOOTER */ 
+  /* FOOTER */
 
   footer {
     display: none;
