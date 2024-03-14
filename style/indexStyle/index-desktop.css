@@ -111,7 +111,7 @@ nav a {
 
 section#banner {
   display: flex;
-  background-image: url("../images/background.jpg");
+  background-image: url("../../images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -273,7 +273,7 @@ div.product p {
   padding-right: 1.125rem;
 }
 
-section#benefits {
+div#benefits-container {
   background-color: #f7f8fa;
   display: flex;
   justify-content: space-around;
