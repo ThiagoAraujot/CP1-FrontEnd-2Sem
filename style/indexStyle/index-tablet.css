@@ -1,0 +1,149 @@
+@media screen and (min-width: 768px) and (max-width: 992px){
+      
+      .logo-img {
+        width: 120px;
+      }
+      
+      
+      div#banner-container img {
+        width: 3.125rem;
+      }
+      
+      div#banner-container h1 {
+        font-size: 2.8rem;
+      }
+      
+      div#banner-container p {
+        width: 33.563rem;
+        font-size: 1.5rem;
+      }
+      
+      div#banner-container button {
+        margin-top: 3.125rem;
+        width: 19.375rem;
+        height: 3.5rem;
+
+      }
+      
+    
+      section#section-products {
+        padding: 3em 0;
+      }
+      
+      div#products-title h2 {
+        font-size: 2.90rem;
+        font-weight: 500;
+      }
+      
+      div#products-title p {
+        font-size: 1.125rem;
+        font-weight: 500;
+        line-height: 28px;
+
+      }
+      
+      div#products-container {
+      
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 80%;
+        gap: 2.5em 0;
+        margin: 0 auto;
+      }
+      
+      div.product {
+        width: 17.938rem;
+        height: 17.313rem;
+      }
+      
+    
+      
+      div.product img {
+        /*background-color: #F7F8FA;*/
+        width: 70%;
+      }
+      
+      div.product h3 {
+        font-family: "Poppins";
+        font-size: 1em;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: -0.8999999165534973px;
+        text-align: left;
+        color: hsl(219, 37%, 18%);
+        padding-left: 1.125rem;
+        padding-top: 0.313rem;
+      }
+      
+      
+      div#benefits-container {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50vh;
+      }
+      
+      div#benefits-txt h3 {
+        font-size: 2.7rem;
+        font-weight: 500;
+        line-height: 47px;
+      }
+      
+      div#benefits-txt p {
+        font-family: "Poppins";
+        font-size: 1.5em;
+        font-weight: 400;
+      }
+      
+      div#benefits-txt ul {
+        padding: 1em 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.650rem;
+        font-size: 1.40em;
+      }
+
+      div#benefits-txt a {
+        text-decoration: none;
+        color: #f7f4f4;
+      }
+      
+      
+      section#popular {
+        height: 80vh;
+        padding: 2em 0;
+      }
+      
+    
+     
+      
+      div#popular-txt p {
+        font-size: 1.300rem;
+        font-weight: 500;
+      }
+      
+      div#popular-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2rem;
+      }
+      
+    
+      div#footer-container {
+        
+        gap: 2rem;
+      }
+      
+      
+
+
+
+
+ }
+ 
+ 
+    
