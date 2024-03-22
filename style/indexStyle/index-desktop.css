@@ -215,10 +215,11 @@ div#products-title p {
 div#products-container {
 
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  width: 90%;
-  gap: 2em 0;
+  width: 70%;
+  gap: 2em;
   margin: 0 auto;
   /*display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 products em cada linha */
